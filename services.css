@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Services</title>
+<link rel="stylesheet" type="text/css" href="design2.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="skill.html">Skill/Talent</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>My Services</h1>
+      <p>These are the services I offer. Replace this text with your own services.</p>
+      <a href="#" class="button">Learn More</a>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <div class="service">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Description of your web development services. </p>
+      </div>
+      <div class="service">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Graphic Design</h3>
+        <p>Description of your graphic design services.</p>
+      </div>
+      </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Name</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script> 
+</body>
+</html>
