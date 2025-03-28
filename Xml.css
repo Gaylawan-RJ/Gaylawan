@@ -25,4 +25,30 @@
   <Description>Top Tier Fragrances Inc.</Description>
   <DeliveryDate>2023-11-15</DeliveryDate>
   <YearsOfContract>2</YearsOfContract>
-</Supplier>
+</Supplier>😚
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Product>
+    <ProductItemID="P001" Name="Eternal Bloom" Brand="Floral Essence">
+        <Description>A captivating floral perfume with a hint of citrus.</Description>
+        <Stock>50</Stock>
+        <Category>Perfume</Category>
+    </Product>
+    <Store>
+        <StoreID>C12345</StoreID>
+        <Address>123 Perfume Lane, Fragrance City</Address>
+        <Owner>YourName</Owner>
+        <DateEstablished>2023-01-15</DateEstablished>
+    </Store>
+    <Supplier>
+        <Supplier Name="Tropical Scents" Address="456 Aroma Street, Scented Town">
+            <Description>Supplier of high-quality perfumes.</Description>
+            <DeliveryDate>2023-10-01</DeliveryDate>
+            <YearsOfContract>2</YearsOfContract>
+        </Supplier>
+    </Supplier>
+</Product>
