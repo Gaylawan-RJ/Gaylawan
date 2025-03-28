@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product ItemID="PERF-001">
+  <Description>Chanel No. 5 Eau de Parfum</Description>
+  <Stock>15</Stock>
+  <Category>Women's Perfume</Category>
+</Product>
+<Product ItemID="PERF-002">
+  <Description>Dior Sauvage Eau de Toilette</Description>
+  <Stock>20</Stock>
+  <Category>Men's Perfume</Category>
+</Product>
+<Product ItemID="PERF-003">
+  <Description>Yves Saint Laurent Black Opium</Description>
+  <Stock>10</Stock>
+  <Category>Women's Perfume</Category>
+</Product>
+
+<Store StoreID="CP-PERFUMES">
+  <Address>123 Main Street, Anytown</Address>
+  <Owner>Ronald James Gaylawan</Owner>
+  <DateEstablished>2023-10-27</DateEstablished>
+</Store>
+
+<Supplier>
+  <Description>Top Tier Fragrances Inc.</Description>
+  <DeliveryDate>2023-11-15</DeliveryDate>
+  <YearsOfContract>2</YearsOfContract>
+</Supplier>
