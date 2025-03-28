@@ -39,7 +39,7 @@ nav li {
   background-image: url('hero-image.jpg'); /*Replace with your hero image*/
   background-size: cover;
   background-position: center;
-  color: white;
+  color: black;
   text-align: center;
   padding: 150px 0;
 }
