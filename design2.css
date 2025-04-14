@@ -309,3 +309,221 @@ footer {
   padding: 20px;
   background-color: #f2f2f2;
 }
+/* design2.css */
+
+/* Basic Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2; /* Light gray background */
+  color: #333; /* Dark gray text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #333; /* Dark gray navigation bar */
+  color: #fff; /* White text */
+  padding: 1em 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+nav a {
+  color: #fff; /* White link text */
+  text-decoration: none;
+  font-weight: bold; /* Bold link text */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Header */
+header {
+  position: relative;
+  overflow: hidden; /* Hide image overflow */
+}
+
+header img {
+  width: 100%; /* Full width image */
+  height: 300px; /* Set height as needed */
+  object-fit: cover; /* Cover the container */
+}
+
+header div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  text-align: center;
+  width: 100%; /* Full width text */
+}
+
+header h1,
+header h2 {
+  margin: 0; /* Remove default margins */
+}
+
+header h1 {
+  font-size: 3em; /* Large heading */
+  font-weight: 900; /* Bold heading */
+  color: #fff; /* White text */
+}
+
+header h2 {
+  font-size: 2em; /* Smaller subheading */
+  font-weight: 700; /* Bold subheading */
+  color: #fff; /* White text */
+}
+
+header p {
+  color: #fff; /* White text */
+  font-size: 1.2em; /* Larger paragraph text */
+  max-width: 600px; /* Limit paragraph width */
+  margin: 1em 0;
+}
+
+header button {
+  background-color: #007bff; /* Blue button */
+  color: #fff; /* White button text */
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+header button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Hero Section */
+.hero {
+  padding: 3em;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.hero p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 2em;
+}
+
+.hero .button {
+  background-color: #28a745; /* Green button */
+  color: #fff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero .button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Section Styles */
+section {
+  padding: 2em 0;
+}
+
+.container {
+  max-width: 1200px; /* Limit container width */
+  margin: 0 auto; /* Center the container */
+}
+
+.grid {
+  gap: 2em; /* Space between grid items */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem; /* Larger heading size */
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-green-500 {
+  color: #28a745; /* Green text color */
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.text-gray-600 {
+  color: #777; /* Light gray text color */
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 3em 0;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 1em;
+}
+
+.portfolio-item {
+  overflow: hidden; /* Hide image overflow */
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 200px; /* Set image height as needed */
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.1); /* Zoom on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #333; /* Dark gray footer */
+  color: #fff; /* White text */
+  padding: 2em 0;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Single column grid on smaller screens */
+  }
+
+  header img {
+    height: 200px; /* Adjust image height */
+  }
+}
