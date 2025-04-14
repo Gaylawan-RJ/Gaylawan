@@ -5,6 +5,179 @@ body {
   line-height: 1.6;
 }
 /* design2.css */
+/* design3.css */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark gray text */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+nav {
+  background-color: #fff; /* White navigation */
+  color: #333;
+  padding: 1em 0;
+  text-align: center;
+  position: fixed; /* Stick navigation to the top */
+  top: 0;
+  width: 100%;
+  z-index: 10; /* Ensure navigation is above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+nav a {
+  color: #333; /* Dark gray link text */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+nav a:hover {
+  color: #007bff; /* Blue on hover */
+}
+
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero {
+  background: linear-gradient(to bottom, #007bff, #0056b3); /* Blue gradient */
+  padding: 3em 0;
+  text-align: center;
+  margin-top: 350px; 
+}
+
+.hero h1 {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  font-size: 2.5em;
+}
+
+.hero p {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+  font-size: 1.2em;
+}
+
+.hero .button {
+  background-color: #fff; /* White button on blue gradient */
+  color: #007bff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+  padding: 1.2em 2.5em;
+  font-size: 1.1em;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.hero .button:hover {
+  background-color: #0056b3;
+  color: #fff; 
+}
+
+.services {
+  background-color: #f8f9fa; /* Light gray background for services */
+}
+
+.video-container {
+  margin-bottom: 4rem;
+  overflow: hidden; /* To hide the video controls if needed */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for the video */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.service {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  text-align: center;
+}
+
+.service i {
+  font-size: 3em; /* Larger icon size */
+  margin-bottom: 1rem;
+  color: #fff; /* White icon color */
+}
+
+.service h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.service p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.bg-blue-500 {
+  background-color: #007bff; /* Blue background */
+}
+
+.bg-orange-500 {
+  background-color: #FFA500; /* Orange background */
+}
+
+.text-white {
+  color: #fff; /* White text */
+}
+
+/* Footer */
+footer {
+  background-color: #282c34; /* Dark gray footer */
+  color: #fff;
+  padding: 2em 0;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Stack services on smaller screens */
+  }
+  .video-container video {
+    height: 200px; /* Adjust video height for smaller screens */
+  }
+}
+
+/* Fallback Font Awesome for missing link */
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-code:before {
+  content: "\f121";
+}
+
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
 
 /* design2.css */
 /* design2.css */
