@@ -508,6 +508,74 @@ section {
 .portfolio-item img:hover {
   transform: scale(1.1); /* Zoom on hover */
 }
+/* ... (Your existing CSS) ... */
+
+/* Portfolio Section - Centered Images */
+.portfolio {
+  padding: 3em 0;
+  background-color: #f8f9fa; /* Light gray background */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 1em;
+  width: 100%; /* Make grid take up full width */
+  max-width: 1200px; /* Limit maximum width */
+  margin: 0 auto; /* Center the grid */
+}
+
+.portfolio-item {
+  overflow: hidden; /* Hide image overflow */
+}
+
+.portfolio-item img {
+  width: 100%; /* Image takes up full width of the grid item */
+  height: auto; /* Adjust height automatically to maintain aspect ratio */
+  object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth transition */
+  display: block; /* Ensure image is a block-level element for better centering */
+  margin: 0 auto; /* Center image within the grid item */
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.1); /* Zoom on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Single column grid on smaller screens */
+  }
+
+  header img {
+    height: 200px; /* Adjust image height */
+  }
+
+  .skills .grid {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+
+  /* Adjust portfolio-grid for tablet and mobile */
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller images on tablet */
+    gap: 0.5em; /* Smaller spacing on tablet */
+  }
+
+  /* Adjust portfolio images for mobile */
+  @media (max-width: 480px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr; /* Single column on mobile */
+    }
+
+    .portfolio-item img {
+      height: 150px; /* Smaller images on mobile */
+    }
+  }
+}
 
 /* Footer */
 footer {
