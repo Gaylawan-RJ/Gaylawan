@@ -1,0 +1,118 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 2em;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #663399;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+.skill {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    padding: 2em;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+}
+
+.social-icons {
+    margin-top: 1em;
+}
+
+.social-icons a {
+    margin: 0 0.5em;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/*Media Query for Responsiveness (Basic Example)*/
+@media (max-width: 768px){
+    nav ul {
+        text-align: left;
+    }
+    nav li {
+        display: block;
+        margin: 0.5em 0;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .about img {
+        max-width: 90%;
+    }
+}
