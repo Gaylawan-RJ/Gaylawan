@@ -6,7 +6,300 @@ body {
 }
 /* design2.css */
 
+/* design2.css */
+
 /* Basic Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #181818; /* Dark gray background */
+  color: #fff; /* White text */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Navigation */
+nav {
+  background-color: #282c34; /* Darker gray navigation */
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  position: fixed; /* Stick navigation to the top */
+  top: 0;
+  width: 100%;
+  z-index: 10; /* Ensure navigation is above other content */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+nav a {
+  color: #fff; /* White link text */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+nav a:hover {
+  color: #007bff; /* Blue on hover */
+}
+
+/* Header */
+header {
+  position: relative;
+  overflow: hidden;
+}
+
+header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  filter: brightness(0.7); /* Reduce image brightness for a darker look */
+}
+
+header div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow to the text */
+}
+
+header h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow to the text */
+}
+
+header p {
+  color: #fff;
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 1em 0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a shadow to the text */
+}
+
+header button {
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow to the button */
+}
+
+header button:hover {
+  background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+  padding: 3em 0;
+  text-align: center;
+  margin-top: 350px; /* Adjust top margin to account for header image */
+}
+
+.hero h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.hero p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 2em;
+}
+
+.hero .button {
+  background-color: #28a745; /* Green button */
+  color: #fff;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Add a shadow to the button */
+}
+
+.hero .button:hover {
+  background-color: #218838;
+}
+
+/* Section Styles */
+section {
+  padding: 2em 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  gap: 2em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-green-500 {
+  color: #28a745;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.text-gray-600 {
+  color: #777;
+}
+
+/* Portfolio Section - Centered Images */
+.portfolio {
+  padding: 3em 0;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.portfolio-item {
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px; /* Add rounded corners to images */
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background-color: #282c34; /* Dark gray footer */
+  color: #fff;
+  padding: 2em 0;
+  text-align: center;
+}
+
+/* Skills Section */
+.skills {
+  padding: 3em 0;
+}
+
+.skills .skill-item {
+  background-color: #282c34; /* Dark gray skill item background */
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px; /* Rounded corners for skill items */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+}
+
+.skills .skill-item i {
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+}
+
+.skills .skill-item p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  header img {
+    height: 200px;
+  }
+
+  .skills .grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Adjust portfolio-grid for tablet and mobile */
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.5em;
+  }
+
+  .skills .skill-item {
+    padding: 1.5rem;
+  }
+
+  /* Adjust portfolio images for mobile */
+  @media (max-width: 480px) {
+    .portfolio-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .portfolio-item img {
+      height: 150px;
+    }
+
+    .hero {
+      margin-top: 250px; /* Adjust top margin for mobile header */
+    }
+  }
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f2f2f2; /* Light gray background */
